@@ -1,6 +1,6 @@
 {
   "name": "psg-theme-ngg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "psg theme for ngg",
   "main": "index.js",
   "scripts": {
