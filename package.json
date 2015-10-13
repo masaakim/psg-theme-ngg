@@ -1,0 +1,21 @@
+{
+  "name": "psg-theme-ngg",
+  "version": "0.0.0",
+  "description": "psg theme for ngg",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/morishitter/psg-theme-ngg/git"
+  },
+  "keywords": [
+    "psg-theme"
+  ],
+  "author": "Masaaki Morishita",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.1"
+  }
+}

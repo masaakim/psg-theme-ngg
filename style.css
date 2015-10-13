@@ -1,0 +1,59 @@
+html.psg-theme {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  color: #666;
+}
+
+h1[id], h2[id], h3[id], h4[id] {
+  margin: 2rem 0 1rem;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #2a2a2a;
+}
+
+h1[id] { font-size: 1.8rem; }
+h2[id] { font-size: 1.5rem; }
+h3[id] { font-size: 1.3rem; }
+h4[id] { font-size: 1rem }
+
+p[id] {
+  margin: 1rem 0;
+}
+
+.psg-title {
+  padding: 3rem 1rem;
+  color: rgba(255,255,255,.5);
+  text-align: center;
+  background-color: #cf0011;
+}
+
+.psg-title h1 {
+  color: #fff;
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+
+.psg-container {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.psg-section {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #cf0011;
+}
+
+.psg-section:last-child {
+  border-bottom: none;
+}
+
+.psg-contents p {
+  margin-bottom: 1rem;
+}

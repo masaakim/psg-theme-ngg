@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="psg-theme" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title><%= projectName %></title>
+        <style><%- codeStyle %><%- tmplStyle %><%- processedCSS %></style>
+    </head>
+    <body>
+        <header class="psg-title">
+            <h1><%= projectName %></h1>
+        </header>
+        <div class="psg-container">
+            <% maps.forEach(function (map) { %>
+                <div class="psg-section">
+                    <div class="psg-contents">
+                    <% if (!showCode) { %>
+                        <%- map.html %>
+                    <% } %>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </body>
+</html>
