@@ -37,14 +37,13 @@ p[id] {
 }
 
 .psg-container {
-  margin-top: 20px;
-  margin-bottom: 60px;
+  max-width: 580px;
+  margin: 20px auto 60px;
 }
 
 .psg-section {
   display: flex;
   flex-flow: column nowrap;
-  align-items: center;
   width: 100%;
   padding-bottom: 2rem;
   border-bottom: 1px solid #cf0011;
